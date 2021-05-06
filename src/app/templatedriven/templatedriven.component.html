@@ -1,0 +1,57 @@
+<form #form1="ngForm">
+
+  <label>form-1 validity is: <span>{{form1.valid}}</span></label>
+
+  <form #form2="ngForm">
+
+    <label>form-2 validity is: <span>{{form2.dirty}}</span></label>
+    <br>
+    <input type="text" name = "form2" [(ngModel)]="input2">
+
+    <form #form21="ngForm">
+      <label>form-2.1 validity is: <span>{{form21.dirty}}</span></label>
+      <br>
+      <input type="text" name = "form21" [(ngModel)]="input21">
+    </form>
+
+    <form #form22="ngForm">
+      <label>form-2.2 validity is: <span>{{form22.dirty}}</span></label>
+      <br>
+      <input type="text" name = "form22" [(ngModel)]="input22">
+    </form>
+
+    <form #form3="ngForm">
+
+      <h1>Reactive Form</h1>
+
+      <label>form-3 validity is: <span>{{form3.dirty}}</span></label>
+      <br>
+      <input type="text" name = "form3" [(ngModel)]="input3">
+
+      <form #form31="ngForm">
+        <label>form-3.1 validity is: <span>{{form31.dirty}}</span></label>
+        <br>
+        <input type="text" name = "form31" [(ngModel)]="input31">
+      </form>
+
+    </form>
+
+    <form #form4="ngForm">
+
+      <h1>Isolated Form</h1>
+
+      <label>form-4 validity is: <span>{{form4.dirty}}</span></label>
+      <br>
+      <input type="text" name = "form4" [(ngModel)]="input4">
+
+      <form #form41="ngForm">
+        <label>form-4.1 validity is: <span>{{form41.dirty}}</span></label>
+        <br>
+        <input type="text" name = "form41" [(ngModel)]="input41">
+      </form>
+
+    </form>
+
+  </form>
+
+</form>
