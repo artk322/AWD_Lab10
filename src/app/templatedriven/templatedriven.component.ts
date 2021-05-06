@@ -3,11 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-templatedriven',
   templateUrl: './templatedriven.component.html',
-  styleUrls: ['./templatedriven.component.css']
+  styleUrls: ['./templatedriven.component.css'],
 })
 export class TemplatedrivenComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
   input2: any;
   input21: any;
   input22: any;
@@ -16,7 +15,5 @@ export class TemplatedrivenComponent implements OnInit {
   input4: any;
   input41: any;
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

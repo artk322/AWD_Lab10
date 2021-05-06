@@ -1,0 +1,23 @@
+.container {
+  width: 600px;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+
+form {
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 1px solid cyan;
+  margin: 0.5em 0;
+}
+
+.red {
+  color: red;
+}
+
+.title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}

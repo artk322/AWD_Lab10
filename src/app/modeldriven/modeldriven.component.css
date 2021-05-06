@@ -55,4 +55,13 @@
   outline: none;
   margin: 0;
   margin-top: 0.5em;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  opacity: 0.90;
+}
+
+.form__button:active {
+  background-color: rgb(129, 129, 218);
 }
